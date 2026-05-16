@@ -33,3 +33,10 @@ pnpm-debug.log*
 
 # markdownlint config
 .markdownlint-cli2.yaml
+
+# playwright-cli (AI driven E2E)
+.playwright-cli/
+e2e/ai/reports/*
+e2e/ai/screenshots/*
+!e2e/ai/reports/.gitkeep
+!e2e/ai/screenshots/.gitkeep
